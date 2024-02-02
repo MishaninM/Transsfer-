@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transsfer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- site header -->    
+<header class="header"> <!-- Класс создаётся для работы со стилями -->
+    <div class="header__line">
+        <div class="container">   
+            <div class="header__line-wrapper">
+                <div class="header__lng">
+                    <a href="#" class="active">Ru</a>
+                    <a href="#" >En</a>
+                </div>
+            <a class="header__phone" href="#"> 8 950 605 78 60</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header__wrapper">
+            <div class="header__block">
+                <nav class="nav">
+                    <a class="nav__link active" href="#">
+                        главная
+                    </a>
+                    <a class="nav__link" href="#">
+                        книги
+                    </a>
+                    <a class="nav__link" href="#">
+                        детям
+                    </a>
+                    <a class="nav__link" href="#">
+                        коллекция
+                    </a>
+                </nav>
+            </div>
+            
+            <a href="#" class="logo">
+                <img src="image/logo.jpg">
+            </a>
+            
+            <div class="header__block right">
+               <div class="header__action">
+                
+                <a class="header__link" href="">
+                    <img src="image/profile.svg" alt="профиль">
+                </a>
+                
+                <a class="header__link" href="">
+                    <img src="image/favorite.svg" alt="избранное">
+                </a>
+                
+                <a class="header__link" href="">
+                    <img src="image/cart.svg" alt="корзина">
+                    <span class="header__link-event"></span>
+                </a>
+
+               </div>
+            </div>
+        </div>
+    </div>
+</header> <!-- /site header -->
+
+    <!-- intro -->
+<div class="intro" style="background-image: url('/image/intro_img.png');">
+    <div class="container">
+        <div class="intro__wrapper">
+            <div class="intro__block">
+                <h1 class="intro__title">турагентство по книгам
+                </h1> <!-- На странице можно сделать только один заголовок H1, по валидации два заголовка  будет выдавать ошибку -->
+                <p class="intro__text">
+                    Станьте главным героем своей любимой книги. Проживите ее так, как этого хотите вы.
+                </p>
+                <div class="intro__actions">
+                    <a class="btn btn-main" href="#">
+                        Читать
+                    </a>
+                    <a class="btn btn-secondary" href="#">
+                        Слушать
+                    </a>
+                </div>     
+            </div>
+        </div> <!-- /.intro__wrapper -->
+    </div> <!-- /.container -->
+</div> <!-- /intro -->
+
+<!-- info block -->
+<div class="container">
+    <div class="info__block">
+        <div class="info__img-wrapper">
+            <img class="info__img" src="image/info_img.png" alt="">
+        </div>
+        <div class="info__item">
+            <div class="info__title">
+                Немного о нас:
+            </div>
+ 
+            <div class="info__text">
+                Частая проблема, которая знакома многим людям - это несоответствие нашего представления о книге и ее экранизации. Тот случай, когда представляете себе одну картинку, а видите совсем другое. 
+                <br>
+                С решениемм этой проблемы вам и поможет наше турагентство, проживите и увидьте книгу такой, какой вы ее себе представляли, вплоть до мельчаших подробностей.
+            </div>
+        </div>
+    </div>
+</div> <!-- /info block -->
+
+<!-- catalog -->
+<div class="container">
+    <h2 class="block__title">
+        Каталог
+    </h2>
+
+    <div class="block__wrapper">
+        <div class="products__block">
+            <a class="products__item" href="#">
+                <img class="products__img" src="image/img_1.png" alt="">
+                <h3 class="products__title">
+                    детектив
+                </h3>
+                <div class="products__footer">
+                    <div class="products__price">
+                        free 
+                        <del>$29.99</del>
+                    </div>
+                    <button type="button" class="products__favorite">
+                        <img src="image/favorite.svg" alt="">
+                    </button>
+                </div>
+            </a>
+        </div>
+
+        <div class="products__block">
+            <a class="products__item" href="#">
+                <img class="products__img" src="image/img_2.png" alt="">
+                <h3 class="products__title">
+                    фантастика
+                </h3>
+                <div class="products__footer">
+                    <div class="products__price">
+                        free 
+                        <del>$29.99</del>
+                    </div>
+                    <button type="button" class="products__favorite">
+                        <img src="image/favorite.svg" alt="">
+                    </button>
+                </div>
+            </a>
+        </div>
+
+        <div class="products__block">
+            <a class="products__item" href="#">
+                <img class="products__img" src="image/img_3.png" alt="">
+                <h3 class="products__title">
+                    роман
+                </h3>
+                <div class="products__footer">
+                    <div class="products__price">
+                        free 
+                        <del>$29.99</del>
+                    </div>
+                    <button type="button" class="products__favorite">
+                        <img src="image/favorite.svg" alt="">
+                    </button>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="block__title">
+        новости
+    </div>
+
+    <div class="news__wrapper">
+        <div class="news__block">
+            <a href="#" class="news__item">
+                <img class="news__img" src="image/news_1.png " alt="">
+            </a>
+        </div>
+
+        <div class="news__block">
+            <a href="#" class="news__item">
+                <img class="news__img" src="image/news_2.png " alt="">
+            </a>
+        </div>
+
+        <div class="news__block">
+            <a href="#" class="news__item">
+                <img class="news__img" src="image/news_3.png " alt="">
+            </a>
+        </div>
+
+    </div>
+</div><!-- /catalog -->
+
+<!-- footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__block">
+                <a class="footer__logo" href="#">
+                    <img src="image/footer_logo.jpg" alt="">
+                </a>
+            </div>
+            <div class="footer__block">
+                <nav class="nav nav-footer">
+                    <a class="nav__link" href="#">
+                        главная
+                    </a>
+                    <a class="nav__link" href="#">
+                        книги
+                    </a>
+                    <a class="nav__link" href="#">
+                        детям
+                    </a>
+                    <a class="nav__link" href="#">
+                        коллекция
+                    </a>
+                </nav>
+            </div>
+            <div class="footer__block">
+                <nav class="nav nav-footer">
+                    <a class="nav__link" href="#">
+                        Контакты
+                    </a>
+                    <a class="nav__link" href="#">
+                        мы на карте
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
